@@ -40,6 +40,10 @@ def mark_number(card, number):
 
     return False
 
+#11,22,33,44,55,66までのゾロ目が出た場合にラッキーメッセージ表示
+def check_lucky_number(drawn_numbers):
+    lucky_numbers = [11, 22, 33, 44, 55, 66]
+    return any(num in drawn_numbers for num in lucky_numbers)
 
 def check_bingo(card):
     size = 5
