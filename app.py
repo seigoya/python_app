@@ -235,7 +235,7 @@ if st.session_state.last_number is not None:
             st.caption("今回出た数字")
 
         if st.session_state.last_number in [11, 22, 33, 44, 55, 66]:
-        st.success("🍀 ラッキーナンバー！今日はいいことあるかも！")
+            st.success("🍀 ラッキーナンバー！今日はいいことあるかも！")
 
 # -------------------------
 # ビンゴカード
